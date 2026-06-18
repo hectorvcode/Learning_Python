@@ -85,3 +85,18 @@ class str(object)
  |      Return self[key].            
 '''
 help(str)
+
+# gives the minimum value
+print("min", min(20, 30, 40, 50))
+
+# gives the maximum value
+print("max", max(20, 30, 40, 50))
+
+# it takes list as an argument and return min
+print("list min", min([10, 20, 30, 40, 50, 60]))
+
+# it takes list as an argument and return max
+print("list max", max([10, 20, 30, 40, 50, 60]))
+
+# it takes list as an argument and return the sum 
+print("list sum", sum([10, 20, 30, 40, 50, 60]))
