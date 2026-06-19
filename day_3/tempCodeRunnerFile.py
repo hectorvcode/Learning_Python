@@ -1,1 +1,7 @@
-print('1 is 1', 1 is 1)
+print('1 is 1: ', 1 is 1)
+print('1 is not 2: ', 1 is not 2)
+print('A in Asabeneh: ', 'A' in 'Asabeneh')
+print('B not in Asabeneh: ', 'B' not in 'Asabeneh')
+print('coding' in 'coding for all')
+print('a in an: ', 'a' in 'an')
+print('4 is 2 ** 2: ', 4 is 2 ** 2)

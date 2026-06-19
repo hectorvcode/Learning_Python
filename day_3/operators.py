@@ -131,4 +131,37 @@ In addition to the above comparison operator Python uses:
 
 print('1 is 1: ', 1 is 1)
 print('1 is not 2: ', 1 is not 2)
-print('A in Asabeneh', 'A' in 'Asabeneh')
+print('A in Asabeneh: ', 'A' in 'Asabeneh')
+print('B not in Asabeneh: ', 'B' not in 'Asabeneh')
+print('coding' in 'coding for all')
+print('a in an: ', 'a' in 'an')
+print('4 is 2 ** 2: ', 4 is 2 ** 2)
+
+
+'''
+Logical Operators
+
+Unlike other programming languages python uses keyworkds and, or and not for logical operators.
+logical operators are used to bombine conditional statements
+Please check the image operators_logical
+
+and     returns True if both statements are true
+or      returns True if one of the statements is true
+not     reverse the result, returns False if the result is true
+'''
+# Examples
+print(3 > 2 and 4 > 3)
+print(3 > 2 and 4 < 3)
+print(3 < 2 and 4 < 3)
+print('True and True: ', True and True)
+
+print(3 > 2 or 4 > 3)
+print(3 > 2 or 4 < 3)
+print(3 < 2 or 4 < 3)
+print('True or False: ', True or False)
+
+print(not 3 > 2)
+print(not True)
+print(not False)
+print(not not True)
+print(not not False)
