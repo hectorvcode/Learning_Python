@@ -1,7 +1,5 @@
-print('1 is 1: ', 1 is 1)
-print('1 is not 2: ', 1 is not 2)
-print('A in Asabeneh: ', 'A' in 'Asabeneh')
-print('B not in Asabeneh: ', 'B' not in 'Asabeneh')
-print('coding' in 'coding for all')
-print('a in an: ', 'a' in 'an')
-print('4 is 2 ** 2: ', 4 is 2 ** 2)
+import math
+radius = float(input('Enter the radius of the circle'))
+area = math.pi * radius * radius 
+circumference = 2 * math.pi * radius
+print(f'The area of the circle is {area} and the circumference is {circumference}')
