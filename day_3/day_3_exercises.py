@@ -35,17 +35,61 @@ circumference = 2 * math.pi * radius
 print(f'The area of the circle is {area} and the circumference is {circumference}')
 
 # Calculate the slope, x-intercept and y-intercept of y = 2x -2
-
+m = 2
+b = -2
+y_intercept = (0, b)
+x_intercept = (-b / m , 0)
+print(f'The slope is {m}')
+print(f'x-intercept is {x_intercept}')
+print(f'y-intercept is {y_intercept}')
 
 # Slope is (m = y2-y1/x2-x1). Find the slope and Euclidean distance between point (2, 2) and point (6,10)
-# Compare the slopes in tasks 8 and 9.
+import math
+x1 = 2
+y1 = 2
+x2 = 6
+y2 = 10
+m = (y2 - y1) / (x2 - x1)
+euclidean_distance = d = math.sqrt((((x2 - x1) ** 2) + ((y2 - y1) ** 2)))
+print('The Slope is: ', m)
+print('The euclidean distance is: ', euclidean_distance)
+
+# Compare the slopes in tasks 8 and 9
+slope1 = 2
+slope2 = 2
+if slope1 < slope2:
+    print('The first slope is less than the second slope')
+elif slope1 == slope2:
+    print('The slopes are equal')
+else: 
+    print('The second slope is grater than the first one')
+
 # Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.
+
+
 # Find the length of 'python' and 'dragon' and make a falsy comparison statement.
+
+
 # Use and operator to check if 'on' is found in both 'python' and 'dragon'
+
+
 # I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
+
+
 # There is no 'on' in both dragon and python
+
+
 # Find the length of the text python and convert the value to float and convert it to string
+
+
 # Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
+
+
 # Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
+
+
 # Check if type of '10' is equal to type of 10
+
+
 # Check if int('9.8') is equal to 10
+

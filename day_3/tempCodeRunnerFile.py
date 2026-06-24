@@ -1,5 +1,8 @@
-import math
-radius = float(input('Enter the radius of the circle'))
-area = math.pi * radius * radius 
-circumference = 2 * math.pi * radius
-print(f'The area of the circle is {area} and the circumference is {circumference}')
+slope1 = 2
+slope2 = 2
+if slope1 < slope2:
+    print('The first slope is less than the second slope')
+elif slope1 == slope2:
+    print('The slopes are equal')
+else: 
+    print('The second slope is grater than the first one')
