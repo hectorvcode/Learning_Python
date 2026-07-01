@@ -1,8 +1,8 @@
-slope1 = 2
-slope2 = 2
-if slope1 < slope2:
-    print('The first slope is less than the second slope')
-elif slope1 == slope2:
-    print('The slopes are equal')
-else: 
-    print('The second slope is grater than the first one')
+import math
+a = 1
+b = 6
+c = 9
+x1 = -b + math.sqrt((b**2 - 4*a*c)/2*a)
+x2 = -b - math.sqrt((b**2 - 4*a*c)/2*a)
+print('x1 = ',x1)
+print('x2 = ',x2)

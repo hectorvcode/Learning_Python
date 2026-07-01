@@ -65,6 +65,20 @@ else:
     print('The second slope is grater than the first one')
 
 # Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.
+x = float(input('Enter x value: '))
+result = x**2 + 6 * x + 9
+print(result)
+
+import math
+a = 1
+b = 6
+c = 9
+x1 = -b + math.sqrt((b**2 - 4*a*c)/2*a)
+x2 = -b - math.sqrt((b**2 - 4*a*c)/2*a)
+print('x1 = ',x1)
+print('x2 = ',x2)
+
+x^2 + 6x + 9 = 0
 
 
 # Find the length of 'python' and 'dragon' and make a falsy comparison statement.
